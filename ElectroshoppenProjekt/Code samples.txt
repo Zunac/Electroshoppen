@@ -1,4 +1,4 @@
-//insert string into .txt
+//insert string into .txt file
 File file = new File("Employee_Profiles.txt"); //Put .txt file outside src folder.
 	 
 	try (FileWriter fileW = new FileWriter(file, true);
